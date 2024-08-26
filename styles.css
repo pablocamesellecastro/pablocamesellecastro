@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente para el texto */
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos toda la altura de la pantalla */
+}
+
+main {
+    flex: 1; /* Hace que el main ocupe el espacio disponible */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Centra el texto */
+}
+
+h1 {
+    color: #ffffff; /* Color del título en blanco */
+}
+
+footer {
+    background-color: #000000; /* Fondo del pie de página en gris oscuro */
+    color: #ffffff; /* Texto del pie de página en blanco */
+    text-align: center; /* Centra el texto en el pie de página */
+    padding: 10px 0; /* Espaciado dentro del pie de página */
+}
